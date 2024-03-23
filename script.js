@@ -14,7 +14,11 @@ const poems = [
     poem: "Roses are red \n Violets are blue \n Jerry Seinfeld is considering \n Making Bee Movie 2",
     image: "bee.jpeg",
   },
-  ,
+  {
+    author: "Catherine",
+    poem: "Roses are red \n Violets are blue \n I should be asleep  \n But i chose to be a software engineer ",
+    image: "LD.jpeg",
+  },
 ];
 
 let displayPoems = (array) => {
